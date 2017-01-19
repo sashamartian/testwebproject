@@ -7,6 +7,7 @@
     <groupId>ru.smartian.testwebproject</groupId>
     <artifactId>test-web-project</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
 
     <properties>
         <slf4j.version>1.7.22</slf4j.version>
