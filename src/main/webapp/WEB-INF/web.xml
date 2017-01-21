@@ -4,5 +4,15 @@
 		 http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
     <display-name>TestWebProject</display-name>
+    
+    <servlet>
+        <servlet-name>about</servlet-name>
+        <servlet-class>ru.smartian.testwebproject.web.About</servlet-class>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>about</servlet-name>
+        <url-pattern>/about</url-pattern>
+    </servlet-mapping>
 
 </web-app>
